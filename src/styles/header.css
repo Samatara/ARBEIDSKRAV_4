@@ -4,4 +4,46 @@
     padding: 5rem 1.5rem 6rem;
     text-align: center;
     position: relative;
+    overflow: hidden;
+    border-bottom: 2px solid var(--farge-aksent);
+}
+
+.side-header::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: 
+    linear-gradient(rgba (217,79,43,0.08) 1px, transparent 1px);
+    background-size: 50px 50px;
+    pointer-events: none;
+}
+.kurs-merklapp{
+    font-family: var(--font-bordtekst);
+    font-size: 0,85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: var(--farge-aksent);
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.gruppe-tittel{
+    font-family: var(--font-overskrift);
+    font-size: clamp(3rem, 10vw, 7rem);
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1;
+    position: relative;
+}
+
+.gruppe-nummer{
+    font-weight: 900;
+    font-style: normal;
+    color: var(--farge-aksent);
+}
+.undertittel{
+    font-weight: 900;
+    margin-top: 1.5rem;
+    color: #a8a8a8;
+    position: relative;
 }

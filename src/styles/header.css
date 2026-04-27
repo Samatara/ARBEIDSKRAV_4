@@ -1,0 +1,7 @@
+.side-header{
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    color: #f4f1ea;
+    padding: 5rem 1.5rem 6rem;
+    text-align: center;
+    position: relative;
+}

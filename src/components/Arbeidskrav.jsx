@@ -1,3 +1,5 @@
+import '../styles/arbeidskrav.css'
+
 function Arbeidskrav({ liste, laster, feil }) {
   return (
     <section className="arbeidskrav-seksjon" aria-labelledby="ak-tittel">

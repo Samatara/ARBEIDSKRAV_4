@@ -24,7 +24,7 @@ function App() {
         setLaster(false)
       })
   }, [])
-  eturn (
+  return (
     <>
       <Header gruppenummer="X" />
       <main className="hovedinnhold">

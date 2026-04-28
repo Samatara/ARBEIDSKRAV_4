@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=DM+Mono:wght@400;500&family=Archivo+Black&family=Caveat:wght@400..700&display=swap');
+
+:root {
+  --farge-bakgrunn: #f4f1ea;
+  --farge-tekst: #1a1a1a;
+  --farge-dempet: #6b6b6b;
+  --farge-aksent: #d94f2b;
+  --farge-kort: #ffffff;
+  --font-overskrift: 'Fraunces', serif;
+  --font-brodtekst: 'DM Mono', monospace;
+  --maks-bredde: 1200px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: var(--font-brodtekst);
+  background: var(--farge-bakgrunn);
+  color: var(--farge-tekst);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(0,0,0,0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+  pointer-events: none;
+  z-index: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  color: inherit;
+}
+.hovedinnhold {
+  max-width: var(--maks-bredde);
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+.seksjon-tittel {
+  font-family: var(--font-overskrift);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+.profiler {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 6rem;
+}
+
+.profiler > .seksjon-tittel {
+  grid-column: 1 / -1;
+  }

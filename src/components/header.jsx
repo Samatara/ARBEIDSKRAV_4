@@ -1,6 +1,6 @@
 import '../styles/header.css'
 
-function header({gruppenummer}){ 
+function Header({gruppenummer}){ 
     return (
         <header className="side-header">
             <p className="kurs-merkelapp">UIN - Utvikling av intraktive nettsteder</p>
@@ -11,4 +11,4 @@ function header({gruppenummer}){
         </header>
     )
 }
-export default header 
+export default Header

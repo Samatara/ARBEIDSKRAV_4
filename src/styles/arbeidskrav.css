@@ -1,0 +1,74 @@
+.arbeidskrav-seksjon {
+  padding-top: 2rem;
+  border-top: 1px solid #d0d0d0;
+}
+
+.seksjon-intro {
+  font-size: 1.05rem;
+  color: var(--farge-dempet);
+  max-width: 55ch;
+  margin-bottom: 3rem;
+}
+
+.status-melding {
+  padding: 1.5rem;
+  background: #f0ece3;
+  border-left: 3px solid var(--farge-aksent);
+}
+
+.status-melding.feil {
+  background: #fde0d9;
+  color: #8b1e00;
+}
+
+.arbeidskrav-liste {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.arbeidskrav-kort {
+  background: var(--farge-kort);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  border: 1px solid #e5e1d8;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.arbeidskrav-kort:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  border-color: var(--farge-aksent);
+}
+
+.ak-kort-topp {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed #d0d0d0;
+}
+
+.ak-nummer {
+  font-size: 0.85rem;
+  color: var(--farge-aksent);
+  font-weight: 500;
+  background: #fde0d9;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.ak-tittel {
+  font-family: var(--font-overskrift);
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+
+.ak-beskrivelse {
+  font-size: 0.95rem;
+  color: #3a3a3a;
+  line-height: 1.7;
+}

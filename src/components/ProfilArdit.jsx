@@ -1,4 +1,4 @@
-
+import '../styles/profil-ardit.css'
 function ProfilArdit() {
     const navn = "Ardit Ramadani"
     const epost = "arditr@hiof.no"

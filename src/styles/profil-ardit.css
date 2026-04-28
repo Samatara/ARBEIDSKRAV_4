@@ -4,7 +4,6 @@
   border: 1px solid #1a1a1a;
   transition: transform 0.3s ease;
 }
-
 .profil-ardit:hover {
   transform: translateY(-4px);
 }
@@ -13,7 +12,6 @@
   border: 1px solid #1a1a1a;
   padding: 0.5rem;
 }
-
 .ardit-bilde {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -21,4 +19,41 @@
   filter: grayscale(100%);
   transition: filter 0.4s ease;
 }
-
+.profil-ardit:hover .ardit-bilde {
+  filter: grayscale(0%);
+}
+.ardit-caption {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align: center;
+  margin-top: 0.75rem;
+  color: var(--farge-dempet);
+}
+.ardit-info {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e0;
+}
+.ardit-navn {
+  font-family: var(--font-overskrift);
+  font-size: 1.75rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+.ardit-studie {
+  font-size: 0.9rem;
+  color: var(--farge-dempet);
+  margin-bottom: 1rem;
+}
+.ardit-epost {
+  font-size: 0.85rem;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: color 0.2s ease;
+}
+.ardit-epost:hover {
+  color: var(--farge-aksent);
+}

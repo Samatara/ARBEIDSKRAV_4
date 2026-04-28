@@ -1,0 +1,24 @@
+.profil-ardit {
+  background: var(--farge-kort);
+  padding: 2rem;
+  border: 1px solid #1a1a1a;
+  transition: transform 0.3s ease;
+}
+
+.profil-ardit:hover {
+  transform: translateY(-4px);
+}
+.ardit-bilde-ramme {
+  margin-bottom: 2rem;
+  border: 1px solid #1a1a1a;
+  padding: 0.5rem;
+}
+
+.ardit-bilde {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: filter 0.4s ease;
+}
+

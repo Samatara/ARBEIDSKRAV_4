@@ -6,7 +6,7 @@ import { client } from './sanity/client'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Arbeidskrav from './components/Arbeidskrav'
-import './App.css'
+
 
 function App() {
   const [arbeidskrav, setArbeidskrav] = useState([])

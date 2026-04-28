@@ -33,7 +33,7 @@ function App() {
   }, [])
   return (
     <>
-      <Header gruppenummer="X" />
+      <Header gruppenummer="28" />
       <main className="hovedinnhold">
         <section className="profiler" aria-labelledby="profiler-tittel">
           <h2 id="profiler-tittel" className="seksjon-tittel">Gruppemedlemmer</h2>

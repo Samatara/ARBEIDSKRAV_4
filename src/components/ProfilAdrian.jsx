@@ -2,7 +2,7 @@ import '../styles/profil-adrian.css'
 
 function ProfilAdrian() {
   const navn = 'Adrian Dabrowski'
-  const epost = 'adrian@student.nord.no'
+  const epost = 'adrianda@hiof.no'
   const studie = 'Bachelor i informasjonssystemer'
   const bilde = '/adrianprofil.jpg'
 

@@ -6,12 +6,12 @@ function App() {
   const [laster, setLaster] = useState(true)
   const [feil, setFeil] = useState(null)
   useEffect(() => {
-    const query = [_type == "arbeidskrav"] | order(nummer asc) {
+  const query = `*[_type == "arbeidskrav"] | order(nummer asc) {
         _id,
         tittel,
         beskrivelse,
         nummer
-}
+}`
     client
       .fetch(query)
       .then((data) => {

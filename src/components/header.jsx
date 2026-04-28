@@ -1,5 +1,4 @@
-
-
+import '../styles/header.css'
 
 function header({gruppenummer}){ 
     return (

@@ -5,11 +5,11 @@ function ProfilSamatar(){
     const navn = "Samatar"
     const epost = "samatara@hiof.no"
     const studie= "informasjonssystemeer"
-    const bilde= " "
+    const bilde= "/sama.png "
     return(
         <article className="profil-samatar">
         <header className="samtar-topp"/>
-        <img src="public" alt="{portrett av ${navn}" className="samatar-bilde" />
+        <img src={bilde} alt={`portrett av ${navn}`} className="samatar-bilde"/>
         <section>
         <h3 className="samatar-navn">{navn}</h3>
         <dl className="detaljer">

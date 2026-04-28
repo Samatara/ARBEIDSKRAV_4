@@ -1,5 +1,5 @@
 
-
+import '../styles/profil-samatar.css'
 
 function ProfilSamatar(){
     const navn = "Samatar"

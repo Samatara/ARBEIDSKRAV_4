@@ -1,6 +1,6 @@
 import { useState, useEffect} from 'react'
 import ProfilArdit from './components/ProfilArdit'
-import ProfilSamatar from './components/ProfileSamatar'
+import ProfilSamatar from './components/ProfilSamatar'
 import ProfilAdrian from './components/ProfilAdrian'
 import { client } from './sanity/client' 
 import Header from './components/Header'

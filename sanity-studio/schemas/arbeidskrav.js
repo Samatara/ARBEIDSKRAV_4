@@ -1,4 +1,3 @@
-import Arbeidskrav from "../../src/components/Arbeidskrav"
 
 export default {
     name: 'arbeidskrav',
@@ -14,7 +13,7 @@ export default {
     { 
         name:  'nummer',
         title: 'Arbeidskrav-nummer',
-        type: 'nummer',
+        type: 'number',
         validation: (Rule) => Rule.required().integer().positive(),
         
     },

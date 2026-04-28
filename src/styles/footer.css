@@ -1,0 +1,20 @@
+.side-footer {
+  background: #1a1a1a;
+  color: #a8a8a8;
+  text-align: center;
+  padding: 3rem 1.5rem;
+  margin-top: 4rem;
+  position: relative;
+  z-index: 1;
+  border-top: 2px solid var(--farge-aksent);
+}
+
+.side-footer p {
+  font-size: 0.85rem;
+}
+
+.footer-liten {
+  margin-top: 0.5rem;
+  font-size: 0.75rem !important;
+  color: #6b6b6b;
+}

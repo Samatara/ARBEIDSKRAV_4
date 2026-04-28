@@ -1,4 +1,11 @@
-import { useState } from 'react'
+import { useState, useEffect} from 'react'
+import ProfilArdit from './components/ProfilArdit'
+import ProfilSamatar from './components/ProfileSamatar'
+import ProfilAdrian from './components/ProfilAdrian'
+import { client } from './sanity/client' 
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Arbeidskrav from './components/Arbeidskrav'
 import './App.css'
 
 function App() {
@@ -40,6 +47,6 @@ function App() {
     </>
   )
 
-    export default App
   
 }
+export default App

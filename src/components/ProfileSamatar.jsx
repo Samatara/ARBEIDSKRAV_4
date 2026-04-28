@@ -24,6 +24,6 @@ function ProfilSamatar(){
         </article>
    )
 
-        export default ProfilSamatar
        
 }
+ export default ProfilSamatar

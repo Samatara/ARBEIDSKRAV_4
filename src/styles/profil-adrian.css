@@ -1,0 +1,85 @@
+.profil-adrian {
+  background: linear-gradient(135deg, #ffe5ec 0%, #c3e8ff 100%);
+  border-radius: 24px;
+  padding: 2.5rem 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.profil-adrian:hover {
+  transform: scale(1.02);
+}
+
+.adrian-blob {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle, #ffb3c6 0%, transparent 70%);
+  border-radius: 50%;
+  filter: blur(10px);
+  pointer-events: none;
+}
+
+.adrian-bilde-wrapper {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 6px solid #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.adrian-bilde {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.adrian-info {
+  text-align: center;
+  position: relative;
+}
+
+.adrian-hilsen {
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
+  color: #8b5a7a;
+  margin-bottom: -0.25rem;
+}
+
+.adrian-navn {
+  font-family: var(--font-overskrift);
+  font-size: 2rem;
+  font-weight: 500;
+  color: #2d2d2d;
+  margin-bottom: 0.5rem;
+}
+
+.adrian-studie {
+  font-size: 0.95rem;
+  color: #5a5a5a;
+  margin-bottom: 1.5rem;
+}
+
+.adrian-epost-knapp {
+  display: inline-block;
+  background: #fff;
+  color: #2d2d2d;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.adrian-epost-knapp:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
